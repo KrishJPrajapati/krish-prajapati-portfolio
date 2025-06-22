@@ -19,7 +19,7 @@ function GlowText({ children, className }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onMouseMove={handleMouseMove}
-      className={`relative overflow-hidden cursor-auto ${className}`}
+      className={`select-none relative overflow-hidden cursor-auto ${className}`}
     >
       <span className="relative z-10 pointer-events-none">{children}</span>
       <div

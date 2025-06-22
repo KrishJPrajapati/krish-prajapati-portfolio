@@ -2,7 +2,7 @@ import ButtonLetsTalk from "./ButtonLetsTalk";
 
 export default function HerosectionText() {
     return (
-        <div className=" relative z-10 flex flex-col items-center justify-center h-screen text-left px-50 text-white">
+        <div className="select-none relative z-10 flex flex-col items-center justify-center h-screen text-left px-50 text-white">
             {/* Greeting Text */}
             <div>
                     <p className="font-luxurias-caveat text-yellow-400 text-xl md:text-3xl mb-2">
