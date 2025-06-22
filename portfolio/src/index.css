@@ -10,6 +10,18 @@
   --font-montserrat:'Montserrat','sans-serif';
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skills-track {
+  animation: slide var(--duration, 40s) linear infinite;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
