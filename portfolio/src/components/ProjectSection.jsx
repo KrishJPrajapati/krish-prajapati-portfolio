@@ -4,7 +4,7 @@ import projectData from "../data/ProjectData";
 
 function ProjectSection() {
   return (
-    <div className="my-30 px-[80px]">
+    <div className="my-30 center mx-30 px-[80px]">
       <div className="font-montserrat font-semibold text-[38px] mb-10">
         Project
       </div>

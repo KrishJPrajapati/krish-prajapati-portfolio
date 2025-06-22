@@ -4,6 +4,7 @@ import Herosection from '../components/Herosection'
 import SkillsSlider from '../components/SkillsSlider'
 import ServiceSection from '../components/ServiceSection'
 import ProjectSection from '../components/ProjectSection'
+import Footer from '../components/Footer'
 
 function Homepage() {
   return (
@@ -12,6 +13,7 @@ function Homepage() {
         <SkillsSlider/>
         <ServiceSection/>
         <ProjectSection/>
+        <Footer/>
     </div>
   )
 }

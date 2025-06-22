@@ -9,8 +9,8 @@ const projectData = [
   },
   {
     image: swasarjan,
-    title: 'Swasarjan',
-    desc: `This is the fullstack website built on MERN tech stack to help the NGO based in Ahmedaad. It is intended to help the members to communicate on the ongoing and future plans. It reduced the effort of citizens by 90% to connect with the authorities of NGO. `,
+    title: 'Swa Sarjan',
+    desc: `This is the fullstack website built on MERN tech stack to help the NGO based in Ahmedaad. It is intended to help the members to communicate on the ongoing and future plans. It reduced the effort of citizens by 90% to connect with the authorities of NGO. Developed a secure admin dashboard for event and campaign management. Enabled dynamic content updates for gallery, news, and announcements. Integrated a mail communication system to streamline upcoming coordination.`,
     tags: ['React.js', 'Node.js', 'MongoDB','Express.js']
   },
 ];
