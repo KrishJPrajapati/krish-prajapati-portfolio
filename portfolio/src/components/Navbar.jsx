@@ -55,16 +55,18 @@ function Navbar() {
       }`}
     >
       {/* Left Side: Name */}
-      <GlowText className="font-anta text-[18px]">KRISH PRAJAPATI</GlowText>
+      <a href="#"><GlowText className="font-anta text-[18px]">KRISH PRAJAPATI</GlowText></a>
 
       {/* Right Side: Menu + Button */}
       <div className="flex items-center space-x-8">
         <ul className="flex space-x-6 font-poppins text-[16px]">
-          <li><GlowText>Skills</GlowText></li>
-          <li><GlowText>Work</GlowText></li>
-          <li><GlowText>About</GlowText></li>
+          <li><a href="#Skills"><GlowText>Skills</GlowText></a></li>
+          <li><a href="#Work"><GlowText>Work</GlowText></a></li>
+          <li><a href="#About"><GlowText>About</GlowText></a></li>
         </ul>
+        <a href="mailto:krishjp2538@gmail.com">
         <ButtonLetsTalk />
+        </a>
       </div>
     </div>
   );

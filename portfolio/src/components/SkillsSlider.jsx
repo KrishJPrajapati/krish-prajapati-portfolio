@@ -39,7 +39,8 @@ export default function SkillsSlider() {
 
   return (
     <div
-      className="bg-black py-10 overflow-hidden text-white"
+    id='Skills'
+      className="bg-black scroll-mt-[100px] pt-[100px] py-10 overflow-hidden text-white"
       onMouseEnter={() => (speedRef.current = 0.5)} 
       onMouseLeave={() => (speedRef.current = 0.8)} 
       // onLoad={() => (speedRef.current = 0.8)} 

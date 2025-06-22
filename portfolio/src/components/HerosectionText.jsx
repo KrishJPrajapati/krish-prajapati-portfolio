@@ -20,7 +20,9 @@ export default function HerosectionText() {
                     </p>
 
                     {/* Button */}
-                    <ButtonLetsTalk />
+                <a href="mailto:krishjp2538@gmail.com">
+                <ButtonLetsTalk />
+                </a>
             </div>
         </div>
     );
