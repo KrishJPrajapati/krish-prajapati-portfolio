@@ -52,7 +52,7 @@ export default function SkillsSlider() {
               alt={skill.name}
               className="w-16 h-16 object-contain grayscale hover:grayscale-0 transition-all duration-300"
             />
-            <span className="font-semibold md:text-3xl">{skill.name}</span>
+            <span className="font-semibold font-poppins md:text-3xl">{skill.name}</span>
           </div>
         ))}
       </div>
