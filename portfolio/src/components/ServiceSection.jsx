@@ -1,7 +1,7 @@
 import ServiceCard from "./ServiceCard";
 
-export default function ServiceSection(){
-      const cards = [
+export default function ServiceSection() {
+  const cards = [
     {
       icon: '/skills/webicon.png',
       title: 'Web Design & Development',
@@ -18,14 +18,22 @@ export default function ServiceSection(){
       icon: '/skills/secicon.png',
       title: 'Security Analysis',
       description:
-        'Passionate about identifying and mitigating web vulnerabilities. Equipped with foundational skills in penetration testing and tools like Nmap, Burp Suite, and Wireshark to help improve the security posture of web-based systems.'    
+        'Passionate about identifying and mitigating web vulnerabilities. Equipped with foundational skills in penetration testing and tools like Nmap, Burp Suite, and Wireshark to help improve the security posture of web-based systems.'
     },
   ];
-    return(
-        <div className="bg-black flex text-white gap-9 py-25 px-10 justify-evenly">
-         {cards.map((card,index)=>(
-                <ServiceCard key={index} icon={card.icon} title={card.title} text={card.description} />
-         ))}  
-        </div>
-    )
+
+  return (
+    <section className="bg-black text-white py-16 px-6 md:px-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+        {cards.map((card, index) => (
+          <ServiceCard
+            key={index}
+            icon={card.icon}
+            title={card.title}
+            text={card.description}
+          />
+        ))}
+      </div>
+    </section>
+  );
 }

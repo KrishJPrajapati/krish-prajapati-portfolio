@@ -18,7 +18,7 @@ function ButtonLetsTalk() {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="relative group overflow-hidden px-6 py-2 text-white border-2 border-white rounded-[12px] font-luxurias-roman bg-black transition duration-300"
+      className="relative group overflow-hidden px-5 py-2 sm:px-6 sm:py-2 text-sm sm:text-[18px] text-white border-2 border-white rounded-[12px] font-luxurias-roman bg-black transition duration-300"
     >
       <span className="relative z-10 pointer-events-none">Let's Talk</span>
 

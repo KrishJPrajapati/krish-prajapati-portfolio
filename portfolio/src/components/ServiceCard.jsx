@@ -1,18 +1,20 @@
-
-function ServiceCard({icon,title,text}) {
+function ServiceCard({ icon, title, text }) {
   return (
-    <div className="flex-col justify-center  bg-[#191919] rounded-[15px] mx-7 my-7 px-7 py-7 md:max-w-[420px]">
-        <div className="flex justify-center">
-                <img src={icon} alt={icon}/>
-        </div>
-        <div className="font-poppins md:max-w-[330px] font-semibold text-[38px] text-center">
-            {title}
-        </div>
-        <div className="text-[18px] font-poppins font-normal flex justify-center text-center">
-            {text}
-        </div>
+    <div className="bg-[#191919] rounded-[15px] p-6 w-full max-w-sm flex flex-col items-center shadow-md hover:shadow-yellow-400/30 transition-shadow duration-300">
+      {/* Icon */}
+      <img src={icon} alt={title} className="w-20 h-20 mb-5" />
+
+      {/* Title */}
+      <h3 className="font-poppins text-center text-xl sm:text-2xl font-semibold mb-4">
+        {title}
+      </h3>
+
+      {/* Description */}
+      <p className="text-[15px] text-center font-poppins text-gray-300 leading-relaxed">
+        {text}
+      </p>
     </div>
-  )
+  );
 }
 
-export default ServiceCard
+export default ServiceCard;

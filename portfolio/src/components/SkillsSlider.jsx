@@ -10,8 +10,8 @@ const skills = [
   { name: 'SQL', photo: '/skills/sql.svg' },
   { name: 'ML', photo: '/skills/artificial.svg' },
   { name: 'Google Cloud', photo: '/skills/gcp.svg' },
-  { name: 'BurpSuite', photo: '/skills/burpsuite.png' },
-  { name: 'Wireshark', photo: '/skills/wireshark.svg' },
+  // { name: 'BurpSuite', photo: '/skills/burpsuite.png' },
+  // { name: 'Wireshark', photo: '/skills/wireshark.svg' },
   { name: 'GitHub', photo: '/skills/github.svg' },
   { name: 'Linux', photo: '/skills/linux.svg' },
 ];
