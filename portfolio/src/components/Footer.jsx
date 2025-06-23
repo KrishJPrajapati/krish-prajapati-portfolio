@@ -4,7 +4,7 @@ import { FaTelegram, FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 function Footer() {
   return (
     <div id='About' className='bg-black scroll-mt-[100px] select-none'>
-      <div className="bg-black text-white mx-4 sm:mx-10 md:mx-30 px-4 sm:px-6 md:px-20 py-10">
+      <div className="bg-black text-white mx-4 sm:mx-10 md:mx-10 px-4 sm:px-6 md:px-20 py-10">
         
         {/* Upper Row: About Section */}
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-30 mb-12">
